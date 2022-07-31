@@ -8,7 +8,7 @@ import static org.junit.Assert.*;
 public class SqAreaTest {
 
     @Test
-    public void theP6K4square1dot25() {
+    public void theP6K5square1dot25() {
         int p = 6;
         int k = 5;
         double expected = 1.25;
@@ -16,7 +16,7 @@ public class SqAreaTest {
         Assert.assertEquals(expected, out, 0.01);
     }
 
-    public void theP106K7square1() {
+    public void theP106K7square2dot73() {
         int p = 10;
         int k = 7;
         double expected = 2.73;
