@@ -16,6 +16,7 @@ public class SqAreaTest {
         Assert.assertEquals(expected, out, 0.01);
     }
 
+    @Test
     public void theP106K7square2dot73() {
         int p = 10;
         int k = 7;
