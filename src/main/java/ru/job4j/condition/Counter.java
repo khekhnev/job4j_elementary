@@ -10,16 +10,15 @@ public class Counter {
         return sum1;
     }
 
-
     public static int sumByEven(int start, int stop) {
-        int sum;
-        int sum1 = 0;
-            for (sum = start; sum <= stop; sum++) {
-            if (sum % 2 == 0) {
-                sum1 = sum1 + sum;
+        int sum = 0;
+        int i = 0;
+            for (i = start; i <= stop; i++) {
+            if (i % 2 == 0) {
+                sum = sum + i;
             }
         }
-        return sum1;
+        return sum;
     }
 
     public static void main(String[] args) {
