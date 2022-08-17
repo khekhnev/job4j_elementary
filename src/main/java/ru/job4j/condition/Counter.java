@@ -10,6 +10,7 @@ public class Counter {
         return sum1;
     }
 
+
     public static int sumByEven(int start, int stop) {
         int sum;
         int sum1 = 0;
