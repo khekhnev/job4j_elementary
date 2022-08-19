@@ -13,7 +13,6 @@ class CounterTest {
         assertThat(out).isEqualTo(expected);
     }
 
-
     @Test
     void whenSumEvenNumbersFrom7To13Then30() {
         int out = Counter.sumByEven(1, 10);
