@@ -2,18 +2,16 @@ package ru.job4j.condition;
 
 public class Counter {
     public static int sum(int start, int finish) {
-        int sum;
-        int sum1 = 0;
-        for (sum = start; sum < finish; sum++) {
-            sum1 = sum1 + (sum + 1);
+        int sum = 0;
+        for (int i = start; i < finish; i++) {
+            sum += i;
         }
-        return sum1;
+        return sum;
     }
 
     public static int sumByEven(int start, int stop) {
         int sum = 0;
-        int i = 0;
-            for (i = start; i <= stop; i++) {
+        for (int i = start; i <= stop; i++) {
             if (i % 2 == 0) {
                 sum = sum + i;
             }
