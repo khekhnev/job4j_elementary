@@ -6,6 +6,7 @@ import static org.assertj.core.api.Assertions.assertThat;
 
 class SkipNegativeTest {
 
+
     @Test
     public void whenArrayRowAndColumnEquals() {
         int[][] array = {
