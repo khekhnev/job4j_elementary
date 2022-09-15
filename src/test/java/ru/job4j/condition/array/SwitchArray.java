@@ -1,4 +1,4 @@
-package ru.job4j.array;
+package ru.job4j.condition.array;
 
 public class SwitchArray {
     public static int[] swap(int[] array, int source, int dest) {

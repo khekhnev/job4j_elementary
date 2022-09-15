@@ -1,6 +1,8 @@
 package ru.job4j.array;
 
 import org.junit.jupiter.api.Test;
+import ru.job4j.condition.array.MatrixCheck;
+
 import static org.assertj.core.api.Assertions.assertThat;
 
 class MatrixCheckTest {

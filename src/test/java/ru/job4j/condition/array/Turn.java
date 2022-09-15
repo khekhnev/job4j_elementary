@@ -1,4 +1,4 @@
-package ru.job4j.array;
+package ru.job4j.condition.array;
 
 public class Turn {
     public static int[] back(int[] array) {

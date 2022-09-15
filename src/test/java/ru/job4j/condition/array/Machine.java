@@ -1,4 +1,4 @@
-package ru.job4j.array;
+package ru.job4j.condition.array;
 
 import java.util.Arrays;
 

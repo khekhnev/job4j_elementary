@@ -1,4 +1,4 @@
-package ru.job4j.array;
+package ru.job4j.condition.array;
 
 public class SkipNegative {
     public  static int[][] skip(int[][] array) {

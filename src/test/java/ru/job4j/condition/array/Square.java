@@ -1,4 +1,4 @@
-package ru.job4j.array;
+package ru.job4j.condition.array;
 
 public class Square {
     public static int[] calculate(int bound) {
